@@ -10,7 +10,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent , NavBarComponent],
+  declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent],
   bootstrap:    [ AppComponent ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
