@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-
+import {LayoutComponent} from './layout/layout.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
