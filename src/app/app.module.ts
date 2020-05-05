@@ -7,9 +7,10 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { MDBBootstrapModule, DropdownModule, InputsModule, CardsModule } from 'angular-bootstrap-md';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule],
   declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent],
   bootstrap:    [ AppComponent ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
