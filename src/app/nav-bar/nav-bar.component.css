@@ -13,4 +13,20 @@ position: fixed; /* Set the navbar to fixed position */
 top: 0; /* Position the navbar at the top of the page */
 width: 100%; /* Full width */
 box-shadow:  0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);
+
+}
+mat-icon-button{
+  float:left;
+  align-self: center;
+  padding:13px 21px 2px .5in;
+  box-align: auto;
+  box-shadow:  0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);
+  background-position-x: center;
+  background-position-y: center;
+  background-color: goldenrod;
+
+
+}
+body{
+   
 }
