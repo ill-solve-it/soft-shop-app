@@ -24,14 +24,41 @@ mat-icon-button{
   box-shadow:  0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);
   background-position-x: center;
   background-position-y: center;
-  background-color: goldenrod;
+  background-color: #EEEEEE;
+  border-top-left-radius:2px 2px;
+  border-top-right-radius: 2px 2px;
+  border-bottom-left-radius: 2px 2px;
+  border-bottom-right-radius: 2px 2px;
 }
 input{
   float:right;
  top:0;
  /*  top: -25px;*/
+   border-top-left-radius:2px 2px;
+    border-top-right-radius: 2px 2px;
+  border-bottom-left-radius: 2px 2px;
+  border-bottom-right-radius: 2px 2px;
 
-}
-.input-form{
+   border-top-style:hidden;
+   border-left-style: hidden;
+   border-bottom-color: black;
+   border-bottom-style: hidden;
+
+
   
 }
+.input-form{
+  border-top-left-radius:2px 2px;
+  border-top-right-radius: 2px 2px;
+  border-bottom-left-radius: 2px 2px;
+  border-bottom-right-radius: 2px 2px;
+
+ background-position-x: center;
+  background-position-y: center;
+  background-color: #EEEEEE;
+  float:right;
+  
+  padding: 7px;
+  padding-bottom: 0px;
+  
+  }
