@@ -56,7 +56,7 @@ import {MatTreeModule} from '@angular/material/tree';
 @NgModule({
   imports:[ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule,MatMenuModule],
   declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent],
-  bootstrap:    [ AppComponent ],
+  bootstrap:    [ AppComponent, Menu1Component ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
 
     exports: [
