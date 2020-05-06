@@ -8,7 +8,7 @@ import { HelloComponent } from './hello.component';
 import { CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MDBBootstrapModule, DropdownModule, InputsModule, CardsModule } from 'angular-bootstrap-md';
-import {Menu1Component} from './menu1/menu1.component'
+import {Menu1Component} from './nav-bar/menu1/menu1.component'
 
 
 import {A11yModule} from '@angular/cdk/a11y';
@@ -55,8 +55,8 @@ import {MatTreeModule} from '@angular/material/tree';
 
 @NgModule({
   imports:[ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule,MatMenuModule],
-  declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent],
-  bootstrap:    [ AppComponent, Menu1Component ],
+  declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent, Menu1Component],
+  bootstrap:    [ AppComponent ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
 
     exports: [
