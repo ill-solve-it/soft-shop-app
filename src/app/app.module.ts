@@ -53,7 +53,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule],
+  imports:[ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule,MatMenuModule],
   declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent],
   bootstrap:    [ AppComponent ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],

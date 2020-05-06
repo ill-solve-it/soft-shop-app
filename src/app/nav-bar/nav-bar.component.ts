@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import {} from '@angular/material/menu';
+
+import {MatMenuModule} from '@angular/material/menu';
 
 @Component({
   selector: 'navigation',
@@ -7,5 +8,7 @@ import {} from '@angular/material/menu';
   styleUrls: [ './nav-bar.component.css' ]
 })
 export class NavBarComponent  {
-  imports:[]
+  imports:[
+    MatMenuModule
+    ]
 }
