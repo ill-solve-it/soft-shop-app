@@ -7,6 +7,17 @@ import {MatMenuModule} from '@angular/material/menu';
   templateUrl: './menu1.component.html',
   styleUrls: [ './menu1.component.css' ]
 })
-export class Menu1Component{
+export class Menu1Component  implements OnInit {
+ @ViewChild(MatMenuTrigger) matMenuTrigger: MatMenuTrigger;
+  constructor() { }
 
+  ngOnInit() {
+  }
+  openMyMenu() {
+    this.matMenuTrigger.openMenu();
+
+  } 
+  closeMyMenu() {
+    this.matMenuTrigger.closeMenu();
+  }
 }

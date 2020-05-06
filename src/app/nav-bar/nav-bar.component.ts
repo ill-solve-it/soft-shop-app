@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import {MatMenuTrigger} from '@angular/material/menu'
 import {MatMenuModule} from '@angular/material/menu';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @Component({
   selector: 'navigation',
   templateUrl: './nav-bar.component.html',
@@ -9,20 +9,8 @@ import {MatMenuModule} from '@angular/material/menu';
 })
 export class NavBarComponent  {
 
-  @ViewChild(MatMenuTrigger) matMenuTrigger: MatMenuTrigger;
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-  openMyMenu() {
-    this.matMenuTrigger.openMenu();
-
-  } 
-  closeMyMenu() {
-    this.matMenuTrigger.closeMenu();
-  }
-  imports:[
+  imports:[ BrowserAnimationsModule,
     MatMenuModule
     ]
 }

@@ -52,6 +52,7 @@ import {MatTableModule} from '@angular/material/table';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   imports:[ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule,MatMenuModule],
@@ -60,6 +61,7 @@ import {MatTreeModule} from '@angular/material/tree';
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
 
     exports: [
+    BrowserAnimationsModule,
     A11yModule,
     ClipboardModule,
     CdkStepperModule,
