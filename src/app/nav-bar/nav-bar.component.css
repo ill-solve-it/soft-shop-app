@@ -2,7 +2,7 @@
 
 mat-toolbar{
 text-align: center;
-padding: 10px 20px 11px;
+padding: 10px 20px 11px 10px;
 align-content: center;
 align-self: center;
 color: rgba(0,0,0,.87);
@@ -11,6 +11,7 @@ font: 400 20px/32px Roboto,Helvetica Neue,sans-serif;
 letter-spacing: normal;
 position: fixed; /* Set the navbar to fixed position */
 top: 0; /* Position the navbar at the top of the page */
+left: 0;
 width: 100%; /* Full width */
 box-shadow:  0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);
 
@@ -24,5 +25,13 @@ mat-icon-button{
   background-position-x: center;
   background-position-y: center;
   background-color: goldenrod;
+}
+input{
+  float:right;
+ top:0;
+ /*  top: -25px;*/
+
+}
+.input-form{
   
 }
