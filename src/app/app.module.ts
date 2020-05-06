@@ -9,6 +9,12 @@ import { CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MDBBootstrapModule, DropdownModule, InputsModule, CardsModule } from 'angular-bootstrap-md';
 
+import { MatSidenavModule, MatIconModule, MatButtonModule } from '@angular/material';
+const uiModules = [
+  MatSidenavModule,
+  MatIconModule,
+  MatButtonModule
+];
 @NgModule({
   imports:      [ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule],
   declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent],
