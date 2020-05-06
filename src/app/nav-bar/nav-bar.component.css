@@ -20,7 +20,8 @@ padding: 10px 20px 11px 10px;
 align-content: center;
 align-self: center;
 color: rgba(0,0,0,.87);
-background: rgb(197, 197, 214);
+/*background: rgb(197, 197, 214);*/
+background: rgb(115, 101, 190);
 font: 400 20px/32px Roboto,Helvetica Neue,sans-serif;
 letter-spacing: normal;
 position: fixed; /* Set the navbar to fixed position */
