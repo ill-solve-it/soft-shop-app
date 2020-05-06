@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+.title{
+  color:#EEEEEE;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #EEEEEE;
+    text-shadow: 
+      -1px 1px 0 rgb(137, 139, 148),
+      -2px 2px 0 rgb(137, 139, 148),
+      -3px 3px 0 rgb(137, 139, 148),
+      -4px 4px 0 #000,
+      -5px 5px 0 #000,
+      -6px 6px 0 #000,
+      -7px 7px 0 #000;
+}
 
 mat-toolbar{
 text-align: center;
