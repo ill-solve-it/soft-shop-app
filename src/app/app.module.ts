@@ -8,6 +8,7 @@ import { HelloComponent } from './hello.component';
 import { CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MDBBootstrapModule, DropdownModule, InputsModule, CardsModule } from 'angular-bootstrap-md';
+import {Menu1Component} from './menu1/menu1.component'
 
 
 import {A11yModule} from '@angular/cdk/a11y';
