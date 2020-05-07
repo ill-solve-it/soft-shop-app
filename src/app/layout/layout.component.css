@@ -22,15 +22,20 @@ mat-card{
   align-items: center;
   align-content: center;
   width: 100%;
- vertical-align: 35px;
+ vertical-align: bottom;
 }
 .drive-card{
-      align-self: center;
-   height: 22 rem;
-  width:22rem;
-
+ align-self: center;
+  border-top-left-radius: 23rem;
+  height: 142px ;
+  margin-top: 215px;
+  left:150px;
+  position:absolute;
+  margin-right: 115px;
+  width:200px;
+  right: 122px;
     box-shadow: 0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);
   display:inline-block;
   text-align:center;
-  
+ 
 }
