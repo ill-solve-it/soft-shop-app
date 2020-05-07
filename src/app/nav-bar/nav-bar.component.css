@@ -126,5 +126,17 @@ padding-left: 10px;
   .pop-up{
     box-shadow: black;
     float: top;
+    background-color: #EEEEEE;
+
   }
-  
+  mat-icon{
+  background: #EEEEEE;
+    font-family: 'Material Icons' !important;
+
+
+  }
+  .dlpd{
+    display: inline-block;
+    color:black;
+    
+  }
