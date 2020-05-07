@@ -15,7 +15,7 @@
   align-content: center;
   width: 100px;
   position: inherit;
-  height: inherit;
+  height: 132px;
   left: 20px;
   right: inherit;
   margin-right: inherit;
@@ -34,12 +34,14 @@ mat-card{
  align-self: center;
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
-  height: 142px ;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  height: 392px ;
   margin-top: 215px;
   left:150px;
   position:absolute;
   margin-right: 115px;
-  width:205px;
+  width:245px;
   right: 122px;
     box-shadow: 0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);
   display:inline-block;
