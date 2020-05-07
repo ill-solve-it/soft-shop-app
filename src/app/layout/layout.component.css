@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+
+
+
 .centerBox{
   box-shadow: 0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);
   align-self: center;
@@ -47,4 +54,46 @@ mat-card{
   display:inline-block;
   text-align:center;
  
+}
+
+mat-card-title{
+
+}
+.title{
+  color:#EEEEEE;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #EEEEEE;
+    text-shadow: 
+      -1px 1px 0 rgb(137, 139, 148),
+      -2px 2px 0 rgb(137, 139, 148),
+      -3px 3px 0 rgb(137, 139, 148),
+      -4px 4px 0 #000,
+      -5px 5px 0 #000,
+      -6px 6px 0 #000,
+      -7px 7px 0 #000;
+      
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
 }
