@@ -57,13 +57,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ViewEncapsulation } from '@angular/core';
 import {MatFormFieldModule} from '@angular/material/form-field';
 
+
+import {} from '@angular/material/tabs'; 
 @NgModule({
-  imports:[ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule,MatMenuModule,MatInputModule,MatDividerModule,MatListModule],
+  imports:[ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule,MatMenuModule,MatInputModule,MatDividerModule,MatListModule,MatTabsModule],
   declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent, Menu1Component],
   bootstrap:    [ AppComponent ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
 
     exports: [
+    MatTabsModule,
     MatListModule,
     BrowserAnimationsModule,
     A11yModule,
