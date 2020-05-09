@@ -122,15 +122,15 @@ mat-list{
 }
 
 .example-small-box {
-  height: 100px;
-  width: 100px;
-}
-
-.example-large-box {
   height: 300px;
   width: 300px;
 }
+
+.example-large-box {
+  height: 600px;
+  width: 900px;
+}
 mat-tab-group{
-  margin: 226px 0px;
+  margin: 200px 0px;
 
 }
