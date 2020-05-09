@@ -97,3 +97,16 @@ mat-card-title{
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+mat-list{
+  
+  padding: 0px;
+
+
+  font-size: 8pt;
+  
+  margin: 228px 0px;
+  position: fixed;
+  width:100%;
+  
+  
+}

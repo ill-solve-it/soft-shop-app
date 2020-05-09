@@ -58,12 +58,13 @@ import { ViewEncapsulation } from '@angular/core';
 import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
-  imports:[ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule,MatMenuModule,MatInputModule],
+  imports:[ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule,MatMenuModule,MatInputModule,MatDividerModule,MatListModule],
   declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent, Menu1Component],
   bootstrap:    [ AppComponent ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
 
     exports: [
+    MatListModule,
     BrowserAnimationsModule,
     A11yModule,
     ClipboardModule,
