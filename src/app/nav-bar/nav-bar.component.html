@@ -5,6 +5,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block" rel="stylesheet">
+      
 </head>
 
 <mat-toolbar>
@@ -16,16 +17,16 @@
 menu
 <mat-menu #menu="matMenu" class="pop-up">
   <button mat-menu-item class="b1" >
-    <mat-icon class="dlpd">dialpad</mat-icon>
-    <span>Redial</span>
+    <mat-icon class="dlpd">how_to_reg</mat-icon>
+    <span>Subscribe</span>
   </button>
   <button mat-menu-item >
-    <mat-icon>voicemail</mat-icon>
-    <span>Check voice mail</span>
+    <mat-icon>store</mat-icon>
+    <span>Shop</span>
   </button>
   <button mat-menu-item>
-    <mat-icon>notifications_off</mat-icon>
-    <span>Disable alerts</span>
+    <mat-icon>person_pin</mat-icon>
+    <span>About</span>
   </button>
 </mat-menu> 
 </span>
@@ -38,10 +39,15 @@ menu
 
 
   <!--<mat-icon-button></mat-icon-button> -->
-
-  <mat-form-field appearance="fill" class="input-form" >
-    <input matInput>
+  <form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Favorite food</mat-label>
+    <input matInput placeholder="Ex. Pizza" value="Sushi">
   </mat-form-field>
+  </form>
+ <!--<mat-form-field appearance="fill" class="input-form" >
+    <input matInput>
+  </mat-form-field>-->
   </div>
   <mat-toolbar-row>
     <span class="title" >The Soft Shop</span>
@@ -49,4 +55,5 @@ menu
   <div>
     
   </div>
+  
 </mat-toolbar>
