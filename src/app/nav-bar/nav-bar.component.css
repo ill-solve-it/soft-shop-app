@@ -124,19 +124,28 @@ padding-left: 10px;
   }
 
   .pop-up{
-    box-shadow: black;
-    float: top;
-    background-color: #EEEEEE;
+    box-shadow: black !important;
+    
+    background-color: #EEEEEE !important;
 
   }
   mat-icon{
-  background: #EEEEEE;
+  
     font-family: 'Material Icons' !important;
-
+     background-size: 10px 20px;
+        padding:25px 10px ;
 
   }
   .dlpd{
-    display: inline-block;
-    color:black;
-    
+  
+     
   }
+/*.b1{
+  background: 12px;
+  padding:112px 120px;
+  width: 25px;
+  
+  
+ left: auto;
+     right:auto;
+}*/
