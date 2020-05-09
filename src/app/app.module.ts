@@ -54,8 +54,11 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { ViewEncapsulation } from '@angular/core';
+import {MatFormFieldModule} from '@angular/material/form-field';
+
 @NgModule({
-  imports:[ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule,MatMenuModule],
+  imports:[ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule,MatMenuModule,MatInputModule],
   declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent, Menu1Component],
   bootstrap:    [ AppComponent ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
