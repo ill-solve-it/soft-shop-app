@@ -140,6 +140,16 @@ padding-left: 10px;
   
      
   }
+  .hamburger{
+    padding:25px 10px ; /* widening toolbar*/
+    border:hidden;
+  }
+  .brgrbttn{
+        padding:0rem;
+        background: rgb(115, 101, 190)!important;
+        color:#EEEEEE;
+        
+  }
 /*.b1{
   background: 12px;
   padding:112px 120px;
