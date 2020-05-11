@@ -5,3 +5,12 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+.foot{
+padding: 10px 20px 11px 10px;
+
+position: fixed;
+bottom:0%;
+height: 1px;
+
+
+}

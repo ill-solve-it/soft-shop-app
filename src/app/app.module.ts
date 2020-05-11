@@ -63,7 +63,7 @@ import {} from '@angular/material/tabs';
 import {FooterComponent} from './footer/footer.component';
 @NgModule({
   imports:[ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule,MatMenuModule,MatInputModule,MatDividerModule,MatListModule,MatTabsModule],
-  declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent, Menu1Component],
+  declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent, Menu1Component,FooterComponent],
   bootstrap:    [ AppComponent ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
 
