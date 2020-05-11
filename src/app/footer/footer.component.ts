@@ -7,9 +7,9 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field'; 
 import {MatToolbarModule} from '@angular/material/toolbar'; 
 @Component({
-  selector: 'navigation',
-  templateUrl: './nav-bar.component.html',
-  styleUrls: [ './nav-bar.component.css' ],
+  selector: 'footer',
+  templateUrl: './footer.component.html',
+  styleUrls: [ './footer.component.css' ],
   encapsulation: ViewEncapsulation.None
 })
 export class FooterComponent  {
