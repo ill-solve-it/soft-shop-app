@@ -6,11 +6,13 @@
   flex: 1 1 auto;
 }
 .foot{
-padding: 10px 20px 11px 10px;
+/*padding: 10px 20px 11px 10px;*/
+ 
+/*position: fixed;*/
 
-position: fixed;
-bottom:0%;
-height: 1px;
-
-
+ overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top:920px;
 }
