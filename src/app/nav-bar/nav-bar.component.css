@@ -22,7 +22,9 @@ align-content: center;
 align-self: center;
 color: rgba(0,0,0,.87);
 /*background: rgb(197, 197, 214);*/
-background: rgb(115, 101, 190);
+/*background: rgb(115, 101, 190);*/
+background: rgb(248, 248, 250);
+
 font: 400 20px/32px Roboto,Helvetica Neue,sans-serif;
 letter-spacing: normal;
 position: fixed; /* Set the navbar to fixed position */
@@ -146,8 +148,8 @@ padding-left: 10px;
   }
   .brgrbttn{
         padding:0rem;
-        background: rgb(115, 101, 190)!important;
-        color:#EEEEEE;
+        background: rgb(248, 248, 250)!important;
+        color: charcoal;
         
   }
   .example-form {
