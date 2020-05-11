@@ -2,7 +2,7 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 .title{
-  position:fi;
+  position:fixed;
   font-size: 36px;
   color:#EEEEEE;
   -webkit-text-stroke-width: 1px;
@@ -163,6 +163,14 @@ block-size: 34px;
 
 .example-full-width {
   width: 50%;
+
+}
+.srchbtn{
+  border:hidden;
+  height: 0px;
+  font-size: 27px;
+  color:#EEEEEE;
+
 
 }
 /*.b1{
