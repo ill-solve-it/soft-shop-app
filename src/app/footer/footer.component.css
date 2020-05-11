@@ -6,13 +6,18 @@
   flex: 1 1 auto;
 }
 .foot{
-/*padding: 10px 20px 11px 10px;*/
+
  
 /*position: fixed;*/
-
+  color: rgb(179, 133, 18);
+background: goldenrod;
  overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
   margin-top:920px;
+  align-items: center;
+  text-align: center;
+  display:inline-block;
+  
 }
