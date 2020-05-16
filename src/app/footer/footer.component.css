@@ -6,8 +6,6 @@
   flex: 1 1 auto;
 }
 .foot{
-
- 
 /*position: fixed;*/
   color: rgb(179, 133, 18);
 background: goldenrod;
@@ -19,5 +17,9 @@ background: goldenrod;
   align-items: center;
   text-align: center;
   display:inline-block;
-  
+}
+
+.btn-linkedin{
+  padding-left: 25px;
+  padding-right: 20px;
 }
