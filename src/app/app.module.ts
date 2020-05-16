@@ -58,16 +58,19 @@ import { ViewEncapsulation } from '@angular/core';
 import {MatFormFieldModule} from '@angular/material/form-field';
 
 
-import {} from '@angular/material/tabs'; 
+import {HttpClientModule} from '@angular/common/http'; 
 
 import {FooterComponent} from './footer/footer.component';
+import Icon from '@material-ui/core/Icon';
 @NgModule({
+
   imports:[ BrowserModule, FormsModule ,CardsModule,InputsModule,MDBBootstrapModule,MatMenuModule,MatInputModule,MatDividerModule,MatListModule,MatTabsModule],
   declarations: [ AppComponent, HelloComponent , NavBarComponent, LayoutComponent, Menu1Component,FooterComponent],
   bootstrap:    [ AppComponent ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
 
     exports: [
+    HttpClientModule,
     MatTabsModule,
     MatListModule,
     BrowserAnimationsModule,

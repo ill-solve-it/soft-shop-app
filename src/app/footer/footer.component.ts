@@ -6,6 +6,8 @@ import { ViewEncapsulation } from '@angular/core';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field'; 
 import {MatToolbarModule} from '@angular/material/toolbar'; 
+import Icon from '@material-ui/core/Icon';
+
 @Component({
   selector: 'footer',
   templateUrl: './footer.component.html',
