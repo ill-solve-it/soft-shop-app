@@ -2,6 +2,7 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 .title{
+  margin-top: -13px;
   position:fixed;
   font-size: 36px;
   color:#EEEEEE;
@@ -159,6 +160,7 @@ block-size: 34px;
   max-width: 500px !important;
   width: 100%;
   float:right;
+  font-size: 18px;
 }
 
 .example-full-width {
