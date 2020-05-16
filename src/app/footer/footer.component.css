@@ -20,6 +20,12 @@ background: goldenrod;
 }
 
 .btn-linkedin{
+  padding-top: -15px;
   padding-left: 25px;
   padding-right: 20px;
+}
+.scl{
+  float:left;
+  padding-left:25px;
+
 }
